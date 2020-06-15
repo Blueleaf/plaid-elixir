@@ -46,7 +46,8 @@ defmodule Plaid.Investments.Transactions do
               type: nil,
               iso_currency_code: nil,
               unofficial_currency_code: nil,
-              cancel_transaction_id: nil
+              cancel_transaction_id: nil,
+              subtype: nil
 
     @type t :: %__MODULE__{
             investment_transaction_id: String.t(),
